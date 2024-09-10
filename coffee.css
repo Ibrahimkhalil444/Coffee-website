@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url(Coffee\ cup.png);
+    background-size: cover;
+    background-repeat: none;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.nav-bar h1{
+    margin-right: 700px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.nav-bar span{
+    color: brown;
+    padding-right: 10px;
+}
+
+.nav-tabs{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 200px;
+    font-size:larger;
+}
+
+.nav-tabs li{
+    margin-right: 40px;
+    font-family:"Poppins" sans-serif;
+}
+.side{
+    display: flex;
+    margin-left: 150px;
+    width: 600px;
+    height: 400px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.side h1{
+    color: white;
+    font-size: 50px;
+    font-family:"Poppins" sans-serif;
+    margin: 0;
+}
+.side span{
+    color: brown;
+}
+.side p{
+    color: white;
+    font-size: 20px;
+    font-family:"Poppins" sans-serif;
+    margin: 0;
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+.side button{
+    width: 120px;
+    height: 35px;
+    background-color: brown;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.side button:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.3s ease-in;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins" sans-serif;
+}
